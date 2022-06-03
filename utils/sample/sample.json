@@ -1,0 +1,95 @@
+{
+    "default_path": "/data1/sdi/CPNKD-result",
+    "current_time": "resume",
+    "Tlog_dir": "/data1/sdi/CPNKD-result",
+    "save_log": true,
+    "model": "deeplabv3plus_resnet101",
+    "separable_conv": false,
+    "output_stride": 8,
+    "num_workers": 4,
+    "data_root": "/data1/sdi/datasets",
+    "dataset": "CPN_six",
+    "num_classes": 2,
+    "is_rgb": true,
+    "resize": [
+        496,
+        468
+    ],
+    "crop_size": [
+        512,
+        448
+    ],
+    "scale_factor": 0.5,
+    "random_seed": 1,
+    "gpus": "6,7",
+    "total_itrs": 5000,
+    "lr": 0.1,
+    "loss_type": "ap_entropy_dice_loss",
+    "optim": "SGD",
+    "lr_policy": "step",
+    "step_size": 1000,
+    "weight_decay": 0.0005,
+    "momentum": 0.9,
+    "batch_size": 16,
+    "patience": 100,
+    "delta": 0.001,
+    "val_interval": 1,
+    "val_batch_size": 4,
+    "save_model": false,
+    "save_ckpt": "/data1/sdi/CPNKD-result/deeplabv3plus_resnet101/May14_19-14-46_CPN_six/cache_param",
+    "val_results": false,
+    "val_results_dir": null,
+    "ckpt": "/data1/sdi/CPNKD-result/deeplabv3plus_resnet101/May14_19-14-46_CPN_six/best_param/checkpoint.pt",
+    "continue_training": false,
+    "login_dir": "/data1/sdi/login.json",
+    "cur_work_server": 5,
+    "run_demo": false,
+    "Class_IoU": {
+        "0": 0.994523420301197,
+        "1": 0.7161150131380172
+    },
+    "Class_F1": [
+        0.99725419,
+        0.83457695
+    ],
+    "0": {
+        "Model": "deeplabv3plus_resnet101",
+        "F1-0": "0.9",
+        "F1-1": "0.1"
+    },
+    "1": {
+        "Model": "deeplabv3plus_resnet101",
+        "F1-0": "0.9",
+        "F1-1": "0.1"
+    },
+    "2": {
+        "Model": "deeplabv3plus_resnet101",
+        "F1-0": "0.9",
+        "F1-1": "0.1"
+    },
+    "3": {
+        "Model": "deeplabv3plus_resnet101",
+        "F1-0": "0.9",
+        "F1-1": "0.1"
+    },
+    "4": {
+        "Model": "deeplabv3plus_resnet50",
+        "F1-0": "0.9",
+        "F1-1": "0.1"
+    },
+    "5": {
+        "Model": "deeplabv3plus_resnet50",
+        "F1-0": "0.9",
+        "F1-1": "0.1"
+    },
+    "6": {
+        "Model": "deeplabv3plus_resnet50",
+        "F1-0": "0.9",
+        "F1-1": "0.1"
+    },
+    "7": {
+        "Model": "deeplabv3plus_resnet50",
+        "F1-0": "0.9",
+        "F1-1": "0.1"
+    }
+}

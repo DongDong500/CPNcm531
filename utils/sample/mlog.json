@@ -1,0 +1,42 @@
+{
+  "0": {
+    "Model": "deeplabv3plus_resnet101",
+    "F1-0": "0.9",
+    "F1-1": "0.1"
+  },
+  "1": {
+    "Model": "deeplabv3plus_resnet101",
+    "F1-0": "0.9",
+    "F1-1": "0.1"
+  },
+  "2": {
+    "Model": "deeplabv3plus_resnet101",
+    "F1-0": "0.9",
+    "F1-1": "0.1"
+  },
+  "3": {
+    "Model": "deeplabv3plus_resnet101",
+    "F1-0": "0.9",
+    "F1-1": "0.1"
+  },
+  "4": {
+    "Model": "deeplabv3plus_resnet50",
+    "F1-0": "0.9",
+    "F1-1": "0.1"
+  },
+  "5": {
+    "Model": "deeplabv3plus_resnet50",
+    "F1-0": "0.9",
+    "F1-1": "0.1"
+  },
+  "6": {
+    "Model": "deeplabv3plus_resnet50",
+    "F1-0": "0.9",
+    "F1-1": "0.1"
+  },
+  "7": {
+    "Model": "deeplabv3plus_resnet50",
+    "F1-0": "0.9",
+    "F1-1": "0.1"
+  }
+}
